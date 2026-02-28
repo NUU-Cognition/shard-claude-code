@@ -1,0 +1,19 @@
+version: "0.1.0"
+name: Claude Code
+shorthand: cc
+description: Claude Code mod
+
+folders:
+  - .claude
+  - .claude/commands
+
+install:
+  - source: CLAUDE.md
+    dest: CLAUDE.md
+    once: true
+  - source: settings.json
+    dest: .claude/settings.json
+    once: true
+  - source: commands/session-info.md
+    dest: .claude/commands/session-info.md
+    once: true
