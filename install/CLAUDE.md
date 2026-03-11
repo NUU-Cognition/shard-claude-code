@@ -7,7 +7,7 @@ Always use the explore agent
 # Session Start
 
 Always read and keep in context:
-- @"Shard/Flint/init-core.md" — Plugin system and terminal agent conventions
+- @"Shard/Flint/init-f.md" — Plugin system and terminal agent conventions
 
 Whenever the user gives you a task or starts a session, you should use the Explore agent to get the relevant context.
 
