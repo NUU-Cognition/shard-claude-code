@@ -1,10 +1,10 @@
 shard-spec: "0.1.0"
-version: "0.1.2"
+version: "0.1.4"
 name: Claude Code
 shorthand: cc
 description: Claude Code agent harness — CLAUDE.md, settings, and slash commands
-depends:
-  - NUU-Cognition/shard-flint
+dependencies:
+  - source: NUU-Cognition/shard-flint
 
 folders:
   - .claude
